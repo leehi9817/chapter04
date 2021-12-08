@@ -46,6 +46,7 @@ public class Point {
 	
 	@Override
 	public boolean equals(Object obj) {
+		//Point 클래스의 x와 y에 접근하기 위해 다운캐스팅
 		Point p = ((Point)obj);
 		
 		if(this.x == p.x && this.y == p.y) {
